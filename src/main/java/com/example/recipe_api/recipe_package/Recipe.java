@@ -89,4 +89,5 @@ public class Recipe {
         return "Recipe{" + " id: " + id + ", name: " + name + ", description: " + description + ", rating: " + rating
                 + ", totalTime: " + totalTime + ", image: " + image + " }";
     }
+
 }
