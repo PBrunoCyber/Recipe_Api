@@ -28,12 +28,12 @@ public class Recipe {
     public Recipe() {
     }
 
-    public Recipe(String name, String description, String image, Integer rating, Time totalTime) {
+    public Recipe(String name, String image, Integer rating, Time totalTime, String description) {
         this.name = name;
         this.description = description;
+        this.rating = rating;
         this.image = image;
         this.totalTime = totalTime;
-        this.rating = rating;
     }
 
     public Long getId() {
